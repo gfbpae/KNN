@@ -1,0 +1,141 @@
+\hypertarget{class_point_generator}{}\doxysection{Point\+Generator Class Reference}
+\label{class_point_generator}\index{PointGenerator@{PointGenerator}}
+
+
+{\ttfamily \#include $<$Point\+Generator.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_point_generator_a19a0008444d85e78feb29b2f40579fe2}{Point\+Generator}} ()
+\item 
+\mbox{\hyperlink{class_point_generator_ac3eda3ae8f7525462765b8de014d4ae9}{$\sim$\+Point\+Generator}} ()
+\item 
+void \mbox{\hyperlink{class_point_generator_a7fda674e653fe3bfad36a133ebd9cca2}{Sample\+Generator}} (int, int, bool)
+\item 
+void \mbox{\hyperlink{class_point_generator_ae09da7d8a65497e98a0372ef1ca021b1}{set\+Last\+Index}} (int)
+\item 
+int \mbox{\hyperlink{class_point_generator_a634a5d15dd6bd218f95c09f714434454}{get\+Last\+Index}} () const
+\item 
+double \mbox{\hyperlink{class_point_generator_aa9321ba96dd552e87a22c03a0b252aa1}{get\+PointX}} (int) const
+\item 
+double \mbox{\hyperlink{class_point_generator_a3d07e30d56bb72cf7c2645c5f3d72081}{get\+PointY}} (int) const
+\item 
+int \mbox{\hyperlink{class_point_generator_a673afda970008d48349cdeb80c177e88}{get\+Point\+ID}} (int) const
+\item 
+int \mbox{\hyperlink{class_point_generator_a7f57d2d3a9126f05efd813f6b4a082ca}{get\+Point\+Index}} (int) const
+\item 
+void \mbox{\hyperlink{class_point_generator_a1fe252af8808c591aec83be12483f09e}{add\+Sample\+Points}} (int, bool)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ pair$<$ pair$<$ int, int $>$, pair$<$ double, double $>$ $>$ $>$ \mbox{\hyperlink{class_point_generator_adae9288d04ff84fd03f146ce99c9e24d}{Sample\+Points}}
+\item 
+int \mbox{\hyperlink{class_point_generator_aca12360ee14c02db33639d38b5903d1b}{last\+\_\+index}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \mbox{\hyperlink{class_point_generator_a85f0344be24c2ea46b36698992b55302}{operator$<$$<$}} (ostream \&, const \mbox{\hyperlink{class_point_generator}{Point\+Generator}} \&)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Point Generator Class =\texorpdfstring{$>$}{>} Used to create points 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_point_generator_a19a0008444d85e78feb29b2f40579fe2}\label{class_point_generator_a19a0008444d85e78feb29b2f40579fe2}} 
+\index{PointGenerator@{PointGenerator}!PointGenerator@{PointGenerator}}
+\index{PointGenerator@{PointGenerator}!PointGenerator@{PointGenerator}}
+\doxysubsubsection{\texorpdfstring{PointGenerator()}{PointGenerator()}}
+{\footnotesize\ttfamily Point\+Generator\+::\+Point\+Generator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Empty Constructor \mbox{\Hypertarget{class_point_generator_ac3eda3ae8f7525462765b8de014d4ae9}\label{class_point_generator_ac3eda3ae8f7525462765b8de014d4ae9}} 
+\index{PointGenerator@{PointGenerator}!````~PointGenerator@{$\sim$PointGenerator}}
+\index{````~PointGenerator@{$\sim$PointGenerator}!PointGenerator@{PointGenerator}}
+\doxysubsubsection{\texorpdfstring{$\sim$PointGenerator()}{~PointGenerator()}}
+{\footnotesize\ttfamily Point\+Generator\+::$\sim$\+Point\+Generator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Destructor 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_point_generator_a1fe252af8808c591aec83be12483f09e}\label{class_point_generator_a1fe252af8808c591aec83be12483f09e}} 
+\index{PointGenerator@{PointGenerator}!addSamplePoints@{addSamplePoints}}
+\index{addSamplePoints@{addSamplePoints}!PointGenerator@{PointGenerator}}
+\doxysubsubsection{\texorpdfstring{addSamplePoints()}{addSamplePoints()}}
+{\footnotesize\ttfamily void Point\+Generator\+::add\+Sample\+Points (\begin{DoxyParamCaption}\item[{int}]{n,  }\item[{bool}]{x }\end{DoxyParamCaption})}
+
+Adds new points to the data of the invoked object =\texorpdfstring{$>$}{>} first input (int) ~\newline
+ \mbox{\Hypertarget{class_point_generator_a634a5d15dd6bd218f95c09f714434454}\label{class_point_generator_a634a5d15dd6bd218f95c09f714434454}} 
+\index{PointGenerator@{PointGenerator}!getLastIndex@{getLastIndex}}
+\index{getLastIndex@{getLastIndex}!PointGenerator@{PointGenerator}}
+\doxysubsubsection{\texorpdfstring{getLastIndex()}{getLastIndex()}}
+{\footnotesize\ttfamily int Point\+Generator\+::get\+Last\+Index (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const}
+
+Returns last\+\_\+index \mbox{\Hypertarget{class_point_generator_a673afda970008d48349cdeb80c177e88}\label{class_point_generator_a673afda970008d48349cdeb80c177e88}} 
+\index{PointGenerator@{PointGenerator}!getPointID@{getPointID}}
+\index{getPointID@{getPointID}!PointGenerator@{PointGenerator}}
+\doxysubsubsection{\texorpdfstring{getPointID()}{getPointID()}}
+{\footnotesize\ttfamily int Point\+Generator\+::get\+Point\+ID (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption}) const}
+
+Take an integer as index and returns point\textquotesingle{}s Category ID at that index \mbox{\Hypertarget{class_point_generator_a7f57d2d3a9126f05efd813f6b4a082ca}\label{class_point_generator_a7f57d2d3a9126f05efd813f6b4a082ca}} 
+\index{PointGenerator@{PointGenerator}!getPointIndex@{getPointIndex}}
+\index{getPointIndex@{getPointIndex}!PointGenerator@{PointGenerator}}
+\doxysubsubsection{\texorpdfstring{getPointIndex()}{getPointIndex()}}
+{\footnotesize\ttfamily int Point\+Generator\+::get\+Point\+Index (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption}) const}
+
+Take an integer as index and returns point\textquotesingle{}s Index at that index (for using after sorting operation) \mbox{\Hypertarget{class_point_generator_aa9321ba96dd552e87a22c03a0b252aa1}\label{class_point_generator_aa9321ba96dd552e87a22c03a0b252aa1}} 
+\index{PointGenerator@{PointGenerator}!getPointX@{getPointX}}
+\index{getPointX@{getPointX}!PointGenerator@{PointGenerator}}
+\doxysubsubsection{\texorpdfstring{getPointX()}{getPointX()}}
+{\footnotesize\ttfamily double Point\+Generator\+::get\+PointX (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption}) const}
+
+Take an integer as index and returns point\textquotesingle{}s x at that index \mbox{\Hypertarget{class_point_generator_a3d07e30d56bb72cf7c2645c5f3d72081}\label{class_point_generator_a3d07e30d56bb72cf7c2645c5f3d72081}} 
+\index{PointGenerator@{PointGenerator}!getPointY@{getPointY}}
+\index{getPointY@{getPointY}!PointGenerator@{PointGenerator}}
+\doxysubsubsection{\texorpdfstring{getPointY()}{getPointY()}}
+{\footnotesize\ttfamily double Point\+Generator\+::get\+PointY (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption}) const}
+
+Take an integer as index and returns point\textquotesingle{}s y at that index \mbox{\Hypertarget{class_point_generator_a7fda674e653fe3bfad36a133ebd9cca2}\label{class_point_generator_a7fda674e653fe3bfad36a133ebd9cca2}} 
+\index{PointGenerator@{PointGenerator}!SampleGenerator@{SampleGenerator}}
+\index{SampleGenerator@{SampleGenerator}!PointGenerator@{PointGenerator}}
+\doxysubsubsection{\texorpdfstring{SampleGenerator()}{SampleGenerator()}}
+{\footnotesize\ttfamily void Point\+Generator\+::\+Sample\+Generator (\begin{DoxyParamCaption}\item[{int}]{a,  }\item[{int}]{n,  }\item[{bool}]{x }\end{DoxyParamCaption})}
+
+Creates points =\texorpdfstring{$>$}{>} first input(int) for beginning index, second input (int) for number of points, third input (bool) to specify being knn or sample points (true for sample points, false for knn points) \mbox{\Hypertarget{class_point_generator_ae09da7d8a65497e98a0372ef1ca021b1}\label{class_point_generator_ae09da7d8a65497e98a0372ef1ca021b1}} 
+\index{PointGenerator@{PointGenerator}!setLastIndex@{setLastIndex}}
+\index{setLastIndex@{setLastIndex}!PointGenerator@{PointGenerator}}
+\doxysubsubsection{\texorpdfstring{setLastIndex()}{setLastIndex()}}
+{\footnotesize\ttfamily void Point\+Generator\+::set\+Last\+Index (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+To set last\+\_\+index with integer 
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_point_generator_a85f0344be24c2ea46b36698992b55302}\label{class_point_generator_a85f0344be24c2ea46b36698992b55302}} 
+\index{PointGenerator@{PointGenerator}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!PointGenerator@{PointGenerator}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{output,  }\item[{const \mbox{\hyperlink{class_point_generator}{Point\+Generator}} \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+It is used to directly print Sample\+Points by overloading the \char`\"{}$<$$<$\char`\"{} operation. It prevents rewrites. 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_point_generator_aca12360ee14c02db33639d38b5903d1b}\label{class_point_generator_aca12360ee14c02db33639d38b5903d1b}} 
+\index{PointGenerator@{PointGenerator}!last\_index@{last\_index}}
+\index{last\_index@{last\_index}!PointGenerator@{PointGenerator}}
+\doxysubsubsection{\texorpdfstring{last\_index}{last\_index}}
+{\footnotesize\ttfamily int Point\+Generator\+::last\+\_\+index\hspace{0.3cm}{\ttfamily [protected]}}
+
+Used to append new points to old points \mbox{\Hypertarget{class_point_generator_adae9288d04ff84fd03f146ce99c9e24d}\label{class_point_generator_adae9288d04ff84fd03f146ce99c9e24d}} 
+\index{PointGenerator@{PointGenerator}!SamplePoints@{SamplePoints}}
+\index{SamplePoints@{SamplePoints}!PointGenerator@{PointGenerator}}
+\doxysubsubsection{\texorpdfstring{SamplePoints}{SamplePoints}}
+{\footnotesize\ttfamily vector$<$pair$<$pair$<$int,int$>$,pair$<$double,double$>$ $>$ $>$ Point\+Generator\+::\+Sample\+Points\hspace{0.3cm}{\ttfamily [protected]}}
+
+Points are kept in this vector. The points are kept in this vector. In first pair, 2 pairs of information about the point are matched. Stores data as \+: first.\+first =\texorpdfstring{$>$}{>} Point index first.\+second =\texorpdfstring{$>$}{>} Point Category ID second.\+first =\texorpdfstring{$>$}{>} Point\textquotesingle{}s x value second.\+second =\texorpdfstring{$>$}{>} Point\textquotesingle{}s y value 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Point\+Generator.\+h\item 
+Point\+Generator.\+cpp\end{DoxyCompactItemize}
