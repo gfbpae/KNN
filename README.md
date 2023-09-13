@@ -15,3 +15,7 @@ help of the graph class.
 
 The program gives the following output at the end (for k=5):
 ![image](https://github.com/gfbpae/KNN/assets/94529874/5f70dff6-e364-4730-aeae-e919ca934ba4)
+
+UML Diagram of the project.
+![image](https://github.com/gfbpae/KNN/assets/94529874/7f74c820-b250-4f4d-9606-3180f685be3b)
+
