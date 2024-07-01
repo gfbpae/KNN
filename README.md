@@ -13,6 +13,8 @@ and y coordinates of the point. These two pairs are stored as pairs again. In or
 more pleasing to the eye, these points are then printed on the coordinate plane with the 
 help of the graph class.
 
+![lab_menü](https://github.com/gfbpae/KNN/assets/94529874/4780ac30-eb6d-49e0-8e4b-349d4bd3edea)
+
 The program gives the following output at the end (for k=5):
 ![image](https://github.com/gfbpae/KNN/assets/94529874/5f70dff6-e364-4730-aeae-e919ca934ba4)
 
